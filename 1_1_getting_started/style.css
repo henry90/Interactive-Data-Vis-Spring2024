@@ -14,7 +14,96 @@ h3 {
   margin: 0.25em 0;
 }
 
-p {
-  font-size: 1em;
-  color: pink;
+/* START "This is my first tutorial" */
+/* Sample code: https://codepen.io/joshuapekera/pen/xGjMMq */
+.shimmer {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0 auto;
+  padding: 0 140px 0 0;
+  display: inline;
+  margin-bottom: 0;
 }
+
+p {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.65);
+  width: 500px;
+  text-align: justify;
+  line-height: 1.5em;
+  border-top: 1px dashed rgba(255, 255, 255, 0.2);
+  margin: 10px 0 0 5px;
+  padding-top: 10px;
+}
+
+.shimmer {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(to right, rgb(237, 34, 36), rgb(243, 91, 34), rgb(249, 150, 33), rgb(245, 193, 30), rgb(241, 235, 27) 27%, rgb(241, 235, 27), rgb(241, 235, 27) 33%, rgb(99, 199, 32), rgb(12, 155, 73), rgb(33, 135, 141), rgb(57, 84, 165), rgb(97, 55, 155), rgb(147, 40, 142));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+
+@-moz-keyframes shimmer {
+  0% {
+      background-position: top left;
+  }
+  100% {
+      background-position: top right;
+  }
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+      background-position: top left;
+  }
+  100% {
+      background-position: top right;
+  }
+}
+
+@-o-keyframes shimmer {
+  0% {
+      background-position: top left;
+  }
+  100% {
+      background-position: top right;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+      background-position: top left;
+  }
+  100% {
+      background-position: top right;
+  }
+}
+/* END "This is my first tutorial" */
+
+/* START Coffee Break */
+.coffee-break {
+  text-align: center;
+  font-size: 5em;
+  margin-top: 50px;
+}
+/* END Coffee Break */
