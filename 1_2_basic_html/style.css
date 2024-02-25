@@ -18,3 +18,28 @@ h3 {
 p {
   font-size: 1em;
 }
+
+#teacher {
+  background-color: #ffeeba;
+  color: #856404;
+}
+
+svg {
+  width: 500px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+#skyline {
+  width: 1000px;
+}
+
+#doNotPush {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px 25px 25px 25px;
+  font-weight: bold;
+  cursor: default;
+}
