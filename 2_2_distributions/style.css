@@ -17,3 +17,19 @@ h3 {
 p {
   font-size: 1em;
 }
+
+/* Sample code https://stackoverflow.com/a/52287687 */
+.title {
+  background: url(https://www.moma.org/media/W1siZiIsIjQ2NzUxNyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=314ebf8cc678676f) -80px -80px; /* Beautiful background image from MoMA Vincent van Gogh
+  The Starry Night */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 4em;
+  font-family: arial, helvetica;
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  background-size: cover; /* Cover the entire text */
+  background-position: center; /* Center the background image */
+}
