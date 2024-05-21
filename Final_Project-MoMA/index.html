@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>MoMA Top 10 Most Used Materials Over the Decades Visualization</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h3>MoMA Top 10 Most Used Materials Over the Decades Visualization</h3>
+    <label for="department">Department:</label>
+    <select id="department"></select>
+    <br><br>
+    <label for="decade-slider">Decade:</label>
+    <input type="range" id="decade-slider" min="1630" max="2020" step="10" value="1880">
+    <span id="decade-value">1880</span>
+    <div id="container"></div>
+    <div class="tooltip"></div>
+    <script src="../lib/d3.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

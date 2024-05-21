@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#container {
+    width: 800px;
+    height: 500px;
+    overflow: visible;
+}
+#decade-slider {
+    width: 90em;
+}
+svg {
+    overflow: visible;
+}
+.bar {
+    fill: rgb(63, 129, 183);
+}
+.bar:hover {
+    fill: orange;
+}
+.axis-label {
+    font-size: 24px;
+}
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    background: rgb(192, 207, 226);
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.no-data-message {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+}
